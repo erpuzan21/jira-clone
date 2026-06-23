@@ -3,9 +3,10 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className="flex gap-4 p-4">
+      <input /> 
       <Button>Primary</Button>
 
-      <Button variant="destructive">
+      <Button variant="default">
         Delete
       </Button>
 
@@ -16,6 +17,9 @@ export default function Home() {
       <Button size="lg">
         Large Button
       </Button>
+      
     </div>
+    
+    
   );
 }
