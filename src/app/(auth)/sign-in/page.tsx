@@ -5,4 +5,4 @@ const SignInPage = () => {
   return <SignInCard />;
 };
 
-export default SignInCard;
+export default puz;
