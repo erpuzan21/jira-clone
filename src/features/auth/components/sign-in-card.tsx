@@ -19,7 +19,7 @@ import { Button } from "@/components/ui/button";
 
       <CardHeader className="flex justify-center p-4 items-center text-center">
         <CardTitle className="text-2xl">
-          Welcome back Shilpu Darling [!
+          Welcome back Shilpu Darling !
         </CardTitle>
       </CardHeader>
 
@@ -49,7 +49,7 @@ import { Button } from "@/components/ui/button";
             min={5}
             max={20}
           />
-          <Button disabled={false} type="submit"  p-2 className="w-full">
+          <Button disabled={false} type="submit" className="w-full">
             Login
           </Button>
 
