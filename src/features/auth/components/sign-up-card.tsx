@@ -20,11 +20,11 @@ import { Button } from "@/components/ui/button";
     <Card className="w-full h-full md:w-[487px] border-none shadow-none">
 
       <CardHeader className="flex flex-col justify-center p-2 items-center text-center">
-        <CardTitle className="text-2xl">
+        <CardTitle className="text-xl">
           Welcome back to sign up page Shilpu Darling
         </CardTitle>
         <div>
-          <CardDescription>
+          <CardDescription className="text-xs">
             By Signing up, you agree to our {" "} 
             <Link href="/terms" className="text-blue-500 hover:underline">
               Terms of Service
@@ -35,6 +35,9 @@ import { Button } from "@/components/ui/button";
             </Link>
           </CardDescription>
         </div>
+        <CardDescription className="text-xs">
+           I love you budi ❤️❤️
+          </CardDescription>
         </CardHeader>
 
         <div className="px-7 mb-2">
@@ -92,6 +95,13 @@ import { Button } from "@/components/ui/button";
             <Button disabled={false} type="submit" className="w-full" variant="secondary" >
               <FaGithub className="mr-2" size={20} /> 
               Login with Github
+            </Button>
+          </CardContent>
+
+          <CardContent >
+            <Button disabled={false} type="submit" className="w-full" variant="secondary" >
+              <FaFacebook className="mr-2" size={20} /> 
+              Login with Facebook
             </Button>
           </CardContent>
   

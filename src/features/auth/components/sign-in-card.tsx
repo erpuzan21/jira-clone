@@ -71,6 +71,13 @@ import { Button } from "@/components/ui/button";
               Login with Github
             </Button>
           </CardContent>
+
+          <CardContent >
+            <Button disabled={false} type="submit" className="w-full" variant="secondary" >
+              <FaFacebook className="mr-2" size={20} /> 
+              Login with Facebook
+            </Button>
+          </CardContent>
   
     </Card>
   );
