@@ -7,6 +7,7 @@ import {
   CardTitle
 } from "@/components/ui/card";
 
+
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
@@ -35,7 +36,7 @@ import { Button } from "@/components/ui/button";
             </Link>
           </CardDescription>
         </div>
-        <CardDescription className="text-xs">
+        <CardDescription className="text-sm text-red-500">
            I love you budi ❤️❤️
           </CardDescription>
         </CardHeader>
